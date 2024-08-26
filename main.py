@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 import requests
-import gdown
-
-# Correct Google Drive download link format for gdown
-url = "https://drive.google.com/uc?id=12r4sxc8DUB10YN6-vJMYDvAmUqJdTHsN"
-output = 'similarity.pkl'
-gdown.download(url, output, quiet=False)
 
 def fetch_poster(movie_id):
     response = requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=8bab2ea3bb054ae93a65c957b41c3988")
