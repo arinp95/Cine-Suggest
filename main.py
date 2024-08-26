@@ -4,6 +4,20 @@ import pickle
 import lzma
 import requests
 
+st.set_page_config(page_title="CineSuggest", page_icon="🎬🍿", layout="wide")
+st.markdown(
+    """
+    <div style="display: flex; justify-content: flex-end;">
+        <a href="https://github.com/arinp95/Movie-Recommandation-System" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub"/>
+        </a>
+        <a href="https://www.linkedin.com/in/arinp95/" target="_blank" style="margin-left: 10px;">
+            <img src="https://img.icons8.com/ios-filled/30/000000/linkedin.png" alt="LinkedIn"/>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 def fetch_poster(movie_id):
     response = requests.get(f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=8bab2ea3bb054ae93a65c957b41c3988")
     data = response.json()
