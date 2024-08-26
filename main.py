@@ -35,7 +35,7 @@ with lzma.open('similarity.pkl.xz', 'rb') as f:
     similarity = pickle.load(f)
 
 # Streamlit UI
-st.title('CineSuggest')
+st.title('CineSuggest 🎬🍿')
 
 selected_movie_name = st.selectbox('Select a movie', movies['title'].values)
 
