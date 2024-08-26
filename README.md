@@ -1,4 +1,4 @@
-# Movie-Recommandation-System
+# CineSuggest 🎬🍿
 This project implements a Content-Based Movie Recommendation System using Python and machine learning techniques. The system recommends movies based on user preferences by analyzing movie attributes such as genre, director, description, and cast. It uses a preprocessed dataset to compute similarity scores between movies, allowing it to suggest films that closely match a user's taste.
 
 ## Key features of the project include:
@@ -11,6 +11,12 @@ This project implements a Content-Based Movie Recommendation System using Python
 
 This project serves as an example of how content-based filtering can be applied to create personalized recommendation systems. It is ideal for those interested in exploring the intersection of data science, machine learning, and application development.
 
+## 🌐 Streamlit Web Application -- [https://content-based-movie-recommandation-system.streamlit.app/]
+A Streamlit web application is developed for easy user interaction with the model. 
 
-![CBMRS1](https://github.com/user-attachments/assets/b5fe0203-365c-48e5-b212-5453ce05e5b8)
-![CBMRS2](https://github.com/user-attachments/assets/a8d57ec4-72b6-43b7-9aee-e3ca06f19f73)
+![The Laptop Economist](https://github.com/user-attachments/assets/d24a6862-88ba-403b-981e-eba64304e0d6)
+
+![CBMRS1](https://github.com/user-attachments/assets/7342f441-cc63-43d7-9b93-c8fa53ed5a0e)
+![CBMRS2](https://github.com/user-attachments/assets/3a14b3f4-9362-4046-a7f8-710872f18c34)
+
+
