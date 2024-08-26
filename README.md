@@ -14,6 +14,8 @@ This project serves as an example of how content-based filtering can be applied 
 ## 🌐 Streamlit Web Application -- [https://content-based-movie-recommandation-system.streamlit.app/]
 A Streamlit web application is developed for easy user interaction with the model. 
 
+![The Laptop Economist](https://github.com/user-attachments/assets/d24a6862-88ba-403b-981e-eba64304e0d6)
+
 ![CBMRS1](https://github.com/user-attachments/assets/7342f441-cc63-43d7-9b93-c8fa53ed5a0e)
 ![CBMRS2](https://github.com/user-attachments/assets/3a14b3f4-9362-4046-a7f8-710872f18c34)
 
