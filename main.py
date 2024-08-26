@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import lzma
 import requests
 
 def fetch_poster(movie_id):
@@ -25,12 +26,13 @@ def recommend(movie):
         recommended_movies_posters.append(fetch_poster(movie_id))
     return recommended_movies, recommended_movies_posters
 
-# Load movie data and similarity matrix
+# Load movie data
 movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
-# Load the similarity matrix
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+# Load and decompress the similarity matrix from the compressed file
+with lzma.open('similarity.pkl.xz', 'rb') as f:
+    similarity = pickle.load(f)
 
 # Streamlit UI
 st.title('Movie Recommender System')
