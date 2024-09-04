@@ -4,7 +4,7 @@ import pickle
 import lzma
 import requests
 
-st.set_page_config(page_title="Cine-Suggest", page_icon="🎬🍿", layout="wide")
+st.set_page_config(page_title="CineSuggest", page_icon="🎬🍿", layout="wide")
 st.markdown(
     """
     <div style="display: flex; justify-content: flex-end;">
